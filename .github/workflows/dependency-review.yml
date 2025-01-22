@@ -1,0 +1,19 @@
+---
+name: Dependency Review
+
+on:
+  pull_request:
+    types:
+      - edited
+      - opened
+      - reopened
+      - synchronize
+
+permissions: {}
+
+jobs:
+  dependency-review:
+    if: github.event.repository.private == false
+    permissions:
+      contents: read
+    uses: ministryofjustice/analytical-platform-airflow-github-actions/.github/workflows/shared-dependency-review.yml@99702f79ee97932a00fcd5f7d6f8eee0e37b8076 # v1.0.2
