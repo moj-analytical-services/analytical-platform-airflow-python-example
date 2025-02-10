@@ -1,4 +1,4 @@
-FROM ghcr.io/ministryofjustice/analytical-platform-airflow-python-base:1.5.0
+FROM ghcr.io/ministryofjustice/analytical-platform-airflow-python-base:1.6.0-rc1
 
 COPY requirements.txt requirements.txt
 COPY src/main.py main.py
