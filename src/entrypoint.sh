@@ -14,7 +14,7 @@ case "${MODE}" in
     aws sts get-caller-identity
     python3 main.py
     ;;
-  failue )
+  failure )
     echo "Running in failure mode"
     env
     aws sts get-caller-identity
