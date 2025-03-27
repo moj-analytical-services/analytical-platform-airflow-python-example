@@ -1,4 +1,4 @@
-FROM ghcr.io/ministryofjustice/analytical-platform-airflow-python-base:1.9.0-rc2@sha256:71f0e2a5cf5a8e15139addfc5076ce9c80fa6a997af841a663625bf039c9287d
+FROM ghcr.io/ministryofjustice/analytical-platform-airflow-python-base:1.9.0@sha256:e8d4a3f42941d5e6f85f0e71b6035dddc46ee52e3698e09eb52f4ed439d68d02
 
 COPY requirements.txt requirements.txt
 COPY src/ .
