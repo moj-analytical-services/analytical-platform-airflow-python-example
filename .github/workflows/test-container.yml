@@ -13,6 +13,7 @@ jobs:
     permissions:
       contents: read
       pull-requests: write
+      id-token: write
     uses: ministryofjustice/analytical-platform-airflow-github-actions/.github/workflows/shared-test-container.yml@add-clean-actions-runner
     with:
       clean-runner: true
