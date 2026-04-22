@@ -14,6 +14,6 @@ jobs:
       contents: read
       pull-requests: write
       id-token: write
-    uses: ministryofjustice/analytical-platform-airflow-github-actions/.github/workflows/shared-scan-container.yml@bca4a88baa1c0e775ce02fca3673280011633946 # testing trivy download
+    uses: ministryofjustice/analytical-platform-airflow-github-actions/.github/workflows/shared-scan-container.yml@f5337fcc31273c948bffc67a2baea5380f813651 # testing trivy download
     with:
       runtime: python
